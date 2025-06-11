@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS user_outfits (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    identifier VARCHAR(60) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    skin LONGTEXT NOT NULL
+);
