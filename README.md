@@ -1,25 +1,24 @@
-# 🧳 Outfit Bag Script für FiveM (ESX)
+# 🧳 Outfit Bag Script for FiveM (ESX)
 
-Ein leistungsstarkes Outfit-System für ESX-basierte FiveM-Server – vollständig optimiert mit **0.00ms Resmon**, konfigurierbaren Komponenten und Outfit-Sharing in Echtzeit.
+A powerful outfit system for ESX-based FiveM servers – fully optimized with **0.00ms resmon**, customizable components, and real-time outfit sharing.
 
 ---
 
 ## 🚀 Features
 
-- 📦 Outfit-Aufbewahrung über Item (`outfitbag`)
-- 👕 Outfits speichern, löschen & direkt anziehen
-- 🔁 Outfit-Komponenten mit Animation ein-/ausziehbar
-- 🎒 Prop-Spawn bei Benutzung der Tasche
-- 🧍 Outfit-Sharing im Umkreis (mit `E`-Interaktion)
-- 🧠 Speicherlimit & aktuelle Auswahl in Datenbank
-- 📜 Vollständig konfigurierbar via `config.lua`
-- 🔋 0.00ms Resmon im Idle
+- 📦 Store outfits using an item (`outfitbag`)
+- 👕 Save, delete & instantly equip outfits
+- 🔁 Equip/remove clothing components with animations
+- 🎒 Spawn prop when using the bag
+- 🧠 Save limit & current outfit stored in the database
+- 📜 Fully configurable via `config.lua`
+- 🔋 0.00ms resmon while idle
 
 ---
 
-## ⚙️ Voraussetzungen
+## ⚙️ Requirements
 
-Dieses Script benötigt folgende Ressourcen:
+This script requires the following resources:
 
 - [`es_extended`](https://github.com/esx-framework/es_extended)
 - [`esx_skin`](https://github.com/esx-framework/esx_skin)
@@ -30,8 +29,8 @@ Dieses Script benötigt folgende Ressourcen:
 
 ## 🛠️ Installation
 
-1. Stelle sicher, dass alle Abhängigkeiten installiert und gestartet sind.
-2. Füge das Script in deinen `resources`-Ordner ein.
-3. Starte das Script in deiner `server.cfg`:
+1. Make sure all required dependencies are installed and started.
+2. Add the script to your `resources` folder.
+3. Start the script in your `server.cfg`:
    ```cfg
    ensure outfitbag
